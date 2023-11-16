@@ -1,0 +1,16 @@
+.contaner-products .pross img{
+    width: 300px;
+    height: 300px;
+    border-bottom: 1px solid black;
+}
+.contaner-products .pro{
+    border: 1px solid #0000006b;
+    margin: 1px;
+    text-align: center;
+}
+.contaner-products .pross{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center !important;
+    flex-wrap: wrap;
+}

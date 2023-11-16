@@ -1,0 +1,17 @@
+.prands{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e0e0e085;
+    height: auto;
+    padding: 5px;
+    margin: 5px;    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.prand{
+    background: white;
+    border-radius: 10px;
+width: 250px;
+margin: 1px;
+
+}

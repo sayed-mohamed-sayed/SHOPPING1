@@ -1,0 +1,18 @@
+.dello{
+width: 100%;
+}
+.dello .contaner-product {
+    width: 100%;
+}
+.dello .contaner-product .pross{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.dello .pro{
+    border: 1px solid black;
+    margin: 2px;
+}

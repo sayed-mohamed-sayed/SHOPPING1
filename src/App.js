@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
 
+import {BrowserRouter,Route ,Redirect, Routes } from "react-router-dom"
+
+import Foter from "./fotter/foter";
+import Header from "./header/header";
+import Cart from "./pages/cart/Cart";
+import Home from "./pages/homepage/homepage"
+import Product from "./pages/homepage/product";
+import Singleproduct from "./pages/singleproduct/Singleproduct";
+import Specialofferpage from "./pages/specilofferpage/specialofferpage";
+import Loginpage from "./register/loginpage";
+import Signin from "./register/signin";
+import Chair from "./pages/chair/chair";
+import Searchinput from "./search/searchinput";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+
+
+ <BrowserRouter>
+<Header/>
+<Routes>
+<Route  path="/login" element={<Loginpage/>}/>
+<Route path="/signin"  element={<Signin/>}/>/
+<Route  path="/" element={<Home/>}/>
+<Route  path="/cart" element={<Cart/>}/>
+<Route  path="/product" element={<Product/>}/>
+<Route  path="/singleproduct/:id" element={<Singleproduct/>}/>
+<Route  path="/specialpage/:id" element={<Specialofferpage/>}/>
+<Route path="/chair" element={<Chair/>} />
+<Route path="/search" element={<Searchinput/>}/>
+</Routes>
+<Foter/>
+</BrowserRouter> 
+
     </div>
   );
 }

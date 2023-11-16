@@ -1,0 +1,95 @@
+.offer{
+    padding: 10px 30px ;
+    background-color: rgb(230, 230, 230);
+}
+
+.title{
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.title i{
+    color: #ff0000f0;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.offer-waper{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+margin: 5px;
+}
+
+.offers{
+/* width: 49%;
+height: 300px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: aliceblue;
+border-radius: 10px;
+position: relative;
+padding: 5px; */
+
+display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-basis: 45%;
+    background: white ;
+    margin: 5px;
+
+}
+
+@media (max-width:726px) {
+    .offers{
+        flex-basis: 100%;
+    }
+}
+.offer-image img{
+    width: 170px;
+}
+.offer-info{
+padding: 5px;
+    margin-right: 50px;
+
+}
+.discover{
+    color: white;
+    background-color: crimson;
+    margin: 4px;
+    border-radius: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.rating{
+    color: lightskyblue
+}
+.price{
+    color: crimson;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.prices{
+    margin: 1px 10px;
+}
+.prices::before{
+    content: "";
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    z-index: 27;
+    top: 13px;
+    background-color: crimson;
+}
+.offer-se{
+    background-color: #2c3e50;
+    color: white;
+    margin: 4px;
+    border-end-start-radius: 30px;
+    padding: 2px 15px;
+    cursor: pointer;
+}

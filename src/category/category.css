@@ -1,0 +1,18 @@
+.category{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.category-item{
+flex-basis: 25%;
+background-color: rgb(230, 230, 230);
+margin: 5px;
+}
+.category-item img{
+    height: 200px;
+    width: 215px;
+    cursor: pointer;
+}

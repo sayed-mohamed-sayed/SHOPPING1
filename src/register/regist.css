@@ -1,0 +1,44 @@
+.login{
+    display: flex;
+    align-items: center;
+}
+.login h6{
+    cursor: pointer;
+    margin: 2px;
+    padding: 2px;
+    text-decoration: none;
+    color: white;
+
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+
+.form-wraber{
+    
+    background-color: whitesmoke;
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.form-wraber input{
+    outline: none;
+    border: 1px solid #2c3e50;
+    margin: 1px;
+}
+.form-wraber button{
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1px;
+    border: 1px solid #2c3e50;
+}
+.sp{
+    color: #ed143db5;
+}
